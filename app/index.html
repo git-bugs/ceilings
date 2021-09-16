@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<link rel="icon" href="images/favicon.svg" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/libs.min.css" />
+	<link rel="stylesheet" href="css/style.min.css" />
+	<script src="scripts/libs.min.js" defer></script>
+	<script src="scripts/main.js" defer></script>
+	<title>Эра</title>
+</head>
+
+<body>
+
+	<header class="header" id="header" style="background-image: url(images/bg.jpg);">
+		<div class="header__overlay"></div>
+		<div class="container">
+			<div class="header__top">
+				<a href="#" class="header__logo">
+					<img src="images/logo.svg" alt="logo" class="header__logo-img">
+				</a>
+				<div class="header__burger">
+					<img src="images/burger.svg" alt="btn" class="header__burger-img">
+					<div class="burger__menu">
+						<div class="burger__title">Меню</div>
+						<img src="images/close.svg" alt="close" class="burger__close">
+						<ul class="header__list">
+							<li class="header__list-item"><a href="#header" class="header__list-link nav-link">Главная</a></li>
+							<li class="header__list-item"><a href="#about" class="header__list-link nav-link">О нас</a></li>
+							<li class="header__list-item"><a href="#advantages" class="header__list-link nav-link">Преимущества</a>
+							</li>
+							<li class="header__list-item"><a href="#catalog" class="header__list-link nav-link"> Каталог</a></li>
+							<li class="header__list-item"><a href="#feedback" class="header__list-link nav-link"> Отзывы</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<nav class="header__nav">
+					<ul class="header__list">
+						<li class="header__list-item"><a href="#header" class="header__list-link nav-link">Главная</a></li>
+						<li class="header__list-item"><a href="#about" class="header__list-link nav-link">О нас</a></li>
+						<li class="header__list-item"><a href="#advantages" class="header__list-link nav-link">Преимущества</a></li>
+						<li class="header__list-item"><a href="#gallery" class="header__list-link nav-link">Наши работы</a></li>
+						<li class="header__list-item"><a href="#catalog" class="header__list-link nav-link"> Каталог</a></li>
+						<li class="header__list-item"><a href="#feedback" class="header__list-link nav-link"> Отзывы</a></li>
+					</ul>
+				</nav>
+				<div class="header__top-box">
+					<a href="tel:+79218922201" class="header__phone">+7 (921) 892 22 01</a>
+					<div class="header__mode">8:00 до 20:00</div>
+				</div>
+				<div class="top__btn">
+					<a href="#" class="header__top-btn">Позвоните мне</a>
+				</div>
+			</div>
+			<div class="header__content">
+				<div class="header__content-info">
+					<h1 class="header__title">Натяжной потолок под ключ</h1>
+					<p class="header__text">Сделаем Вам нятжной потолок высокого качества. Электромонтаж любой сложности,
+						фиксированная цена по договору, монтаж один день.
+					</p>
+					<div class="header__content-box">
+						<a href="#" class="header__btn">Бесплатный замер</a>
+						<div class="header__social-inner">
+							<a href="#" class="header__social youtube" target="_blank">
+								<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M33.5125 7.7875C32.5631 6.09875 31.5328 5.78813 29.435 5.67C27.3394 5.52781 22.0697 5.46875 17.5044 5.46875C12.9303 5.46875 7.65844 5.52781 5.565 5.66781C3.47156 5.78813 2.43906 6.09656 1.48094 7.7875C0.503125 9.47406 0 12.3791 0 17.4934C0 17.4978 0 17.5 0 17.5C0 17.5044 0 17.5066 0 17.5066V17.5109C0 22.6034 0.503125 25.5303 1.48094 27.1994C2.43906 28.8881 3.46937 29.1944 5.56281 29.3366C7.65844 29.4591 12.9303 29.5312 17.5044 29.5312C22.0697 29.5312 27.3394 29.4591 29.4372 29.3387C31.535 29.1966 32.5653 28.8903 33.5147 27.2016C34.5013 25.5325 35 22.6056 35 17.5131C35 17.5131 35 17.5066 35 17.5022C35 17.5022 35 17.4978 35 17.4956C35 12.3791 34.5013 9.47406 33.5125 7.7875ZM13.125 24.0625V10.9375L24.0625 17.5L13.125 24.0625Z"
+										fill="white" />
+								</svg>
+							</a>
+							<a href="#" class="header__social vk" target="_blank">
+								<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0)">
+										<path
+											d="M24.064 15.7421C23.5951 15.15 23.7293 14.8866 24.064 14.3574C24.07 14.3513 27.9403 9.00325 28.339 7.18954L28.3415 7.18833C28.5396 6.52738 28.3415 6.04163 27.3833 6.04163H24.2126C23.4054 6.04163 23.0333 6.4585 22.8339 6.92492C22.8339 6.92492 21.2195 10.7892 18.9358 13.294C18.1987 14.0178 17.858 14.2498 17.4556 14.2498C17.2574 14.2498 16.9493 14.0178 16.9493 13.3569V7.18833C16.9493 6.39567 16.7233 6.04163 16.0551 6.04163H11.0695C10.5633 6.04163 10.2624 6.41138 10.2624 6.75575C10.2624 7.50733 11.4043 7.68013 11.5227 9.79471V14.3828C11.5227 15.3881 11.3402 15.573 10.9354 15.573C9.85758 15.573 7.24154 11.693 5.69125 7.25238C5.37829 6.39083 5.07258 6.04283 4.25938 6.04283H1.0875C0.182458 6.04283 0 6.45971 0 6.92613C0 7.75021 1.07783 11.8477 5.01217 17.261C7.63425 20.9561 11.3269 22.9583 14.6861 22.9583C16.7052 22.9583 16.9517 22.5136 16.9517 21.7488C16.9517 18.218 16.7693 17.8845 17.7806 17.8845C18.2495 17.8845 19.0566 18.1165 20.9416 19.8988C23.0961 22.0122 23.4501 22.9583 24.656 22.9583H27.8267C28.7305 22.9583 29.1885 22.5136 28.9251 21.6364C28.3221 19.7913 24.2476 15.9959 24.064 15.7421Z"
+											fill="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0">
+											<rect width="29" height="29" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+							<a href="#" class="header__social inst" target="_blank">
+								<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M18.8247 0H7.17486C3.21865 0 0 3.2188 0 7.17502V18.8248C0 22.7812 3.21865 25.9998 7.17486 25.9998H18.8247C22.7812 25.9998 25.9998 22.781 25.9998 18.8248V7.17502C26 3.2188 22.7812 0 18.8247 0ZM23.6932 18.8248C23.6932 21.5092 21.5092 23.693 18.8248 23.693H7.17486C4.49063 23.6932 2.30683 21.5092 2.30683 18.8248V7.17502C2.30683 4.49079 4.49063 2.30683 7.17486 2.30683H18.8247C21.5091 2.30683 23.693 4.49079 23.693 7.17502V18.8248H23.6932Z"
+										fill="white" />
+									<path
+										d="M12.9998 6.30078C9.30563 6.30078 6.30029 9.30612 6.30029 13.0003C6.30029 16.6943 9.30563 19.6995 12.9998 19.6995C16.694 19.6995 19.6993 16.6943 19.6993 13.0003C19.6993 9.30612 16.694 6.30078 12.9998 6.30078ZM12.9998 17.3925C10.5778 17.3925 8.60713 15.4221 8.60713 13.0001C8.60713 10.578 10.5776 8.60746 12.9998 8.60746C15.422 8.60746 17.3925 10.578 17.3925 13.0001C17.3925 15.4221 15.4218 17.3925 12.9998 17.3925Z"
+										fill="white" />
+									<path
+										d="M19.9805 4.34473C19.536 4.34473 19.0994 4.52466 18.7856 4.83993C18.4701 5.15366 18.2888 5.59042 18.2888 6.0364C18.2888 6.48101 18.4703 6.91761 18.7856 7.23288C19.0993 7.54661 19.536 7.72808 19.9805 7.72808C20.4265 7.72808 20.8617 7.54661 21.177 7.23288C21.4922 6.91761 21.6721 6.48085 21.6721 6.0364C21.6721 5.59042 21.4922 5.15366 21.177 4.83993C20.8632 4.52466 20.4265 4.34473 19.9805 4.34473Z"
+										fill="white" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__slider-left">
+					<svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M19 7.5H1M1 7.5L8 14.5M1 7.5L8 0.5" stroke="white" />
+					</svg>
+				</div>
+				<div class="header__slider-right">
+					<svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M0 7.5H18M18 7.5L11 14.5M18 7.5L11 0.5" stroke="white" />
+					</svg>
+				</div>
+			</div>
+		</div>
+		<div class="header__slider">
+			<div class="header__slider-item">
+				<img src="images/slide1.jpg" alt="" class="header__slider-img">
+				<div class="header__slider-price">420Руб. за<sup>2</sup>м</div>
+				<div class="header__slider-info">Матовый натяжной потолок</div>
+			</div>
+			<div class="header__slider-item">
+				<img src="images/header-slide2.jpg" alt="" class="header__slider-img">
+				<div class="header__slider-price">370Руб. за<sup>2</sup>м</div>
+				<div class="header__slider-info">Матовый натяжной</div>
+			</div>
+			<div class="header__slider-item">
+				<img src="images/header-slide3.jpg" alt="" class="header__slider-img">
+				<div class="header__slider-price">370Руб. за<sup>2</sup>м</div>
+				<div class="header__slider-info">Матовый потолок</div>
+			</div>
+		</div>
+		<div class="header__slider-info__mask"></div>
+	</header>
+
+	<section class="about" id="about">
+		<div class="container">
+			<h4 class="about__title title">О нас </h4>
+			<div class="about_inner">
+				<p class="about__text">При заказе натяжных потолков в нашей компании, вам не нужно оплачивать замеры
+					помещения. Наш специалист поможет выбрать подходящее под ваши потребности
+					полотно, а ткаже лучшее освещение. Вам не нужно нанимать несколько специалистов,
+					все работы мы берем на себя: начиная от демонтажа старых потолков, до подбора и
+					установки новых. Также, мы рады предложить вам сервисное обслуживание потолков.
+					Все работники нашей компании - квалифицированные специалисты, профессионалы
+					с большим опытом работы. Мы поберем для Вас индивидуальные решения, учитывая
+					целевое назначение помещения, а также варианты освещения для каждой кокретной
+					зоны и быстро осуществим установку натяжных потолков. Мы заботимся о комфорте
+					своих клиентов и понимаем необходимость быстрой установки натяжных потолков.
+					Поэтому возможен вызов мастера в выходные, а также проведение замеров в удобное
+					для клиента время.</p>
+				<div class="about__img-inner">
+					<img class="about__img" src="images/about-img.jpg" alt="img">
+					<img src="images/img.jpg" alt="" class="about__img-hide">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="advantages" id="advantages">
+		<div class="container">
+			<div class="advantages__inner">
+				<div class="advantages__img-box">
+					<img src="images/bonus.jpg" alt="img" class="advantages__img">
+				</div>
+				<div class="advantages__info">
+					<h4 class="advantages__title title">Наши преимущества</h4>
+					<div class="advantages__items">
+						<div class="advantages__item">
+							<div class="advantages__item-title">Забота о клиенте</div>
+							<p class="advantages__item-text">Бесплытный вызов мастера
+								для замеров и консультаций</p>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__item-title">Гарантия до 10 лет</div>
+							<p class="advantages__item-text">Гарантия 10 лет на полотно
+								и 3 года на монтаж.</p>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__item-title
+							advantages__item-title--line">Без запаха</div>
+							<p class="advantages__item-text">Наши потолки предназначенны
+								для установки в жилых помещениях
+								и не имеют никакого запаха</p>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__item-title">Надежность</div>
+							<p class="advantages__item-text">Более 5 лет безупречной
+								работы в этой сфере</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="gallery" id="gallery">
+		<h4 class="gallery__title title">Натяжные потолки установленные нами</h4>
+		<div class="gallery__inner">
+			<div class="gallery__items  ">
+				<img src="images/work5.jpg" alt="" class="gallery__item">
+				<img src="images/work6.jpg" alt="" class="gallery__item">
+					<img src="images/work7.jpg" alt="" class="gallery__item">
+					<img src="images/work8.jpg" alt="" class="gallery__item">
+					<img src="images/work9.jpg" alt="" class="gallery__item">
+					<img src="images/work10.jpg" alt="" class="gallery__item">
+			</div>
+			<div class="gallery__thumbs ">
+				<img src="images/work5.jpg" alt="" class="gallery__thumbs-img">
+				<img src="images/work6.jpg" alt="" class="gallery__thumbs-img">
+				<img src="images/work7.jpg" alt="" class="gallery__thumbs-img">
+				<img src="images/work8.jpg" alt="" class="gallery__thumbs-img">
+				<img src="images/work9.jpg" alt="" class="gallery__thumbs-img">
+				<img src="images/work10.jpg" alt="" class="gallery__thumbs-img">
+			</div>
+			<div class="thumbs-left">
+				<svg width="20" height="35" viewBox="0 0 20 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M18.5 1L2 17.5L18.5 34" stroke="white" stroke-width="2" />
+				</svg>
+			</div>
+			<div class="thumbs-right">
+				<svg width="19" height="35" viewBox="0 0 19 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1 1L17.5 17.5L1 34" stroke="white" stroke-width="2" />
+				</svg>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="catalog" id="catalog">
+		<div class="container">
+			<h4 class="catalog__title title">Каталог</h4>
+			<div class="catalog__type">
+				<div class="catalog__type-label">Тип потолка:</div>
+				<div class="catalog__type-buttons">
+					<button class="catalog__type-btn btn--active">На кухню</button>
+					<button class="catalog__type-btn">В офис</button>
+					<button class="catalog__type-btn">В детскую</button>
+					<button class="catalog__type-btn">В гостинную</button>
+					<button class="catalog__type-btn">В санузел</button>
+					<button class="catalog__type-btn">В загородный дом</button>
+				</div>
+			</div>
+			<div class="catalog__content">
+				<div class="catalog__img-inner">
+					<img src="images/catalog-img.jpg" alt="" class="catalog__img">
+				</div>
+				<div class="catalog__info">
+					<div class="catalog__name">Натяжные потолки на кухню</div>
+					<p class="catalog__text">Самая яркая комната во всем доме – детская, где родители создают особый уют
+						для ребенка. Правильное оформление стен, потолка, подбор мебели и текстиля гарантируют малышу здоровый сон,
+						экологическую обстановку и душевное равновесие. Потолок это то, что видит ребенок, ежедневно просыпаясь, он
+						может быть очень увлекательным и даже познавательным если речь идет о натяжном потолке в детскую.</p>
+					<div class="catalog__price"><span>Стоимость: </span>от 250 руб/м2</div>
+					<a href="#" class="catalog__btn">Заказать</a>
+				</div>
+			</div>
+			<div class="catalog__content">
+				<div class="catalog__img-inner">
+					<img src="images/catalog-img.jpg" alt="" class="catalog__img">
+				</div>
+				<div class="catalog__info">
+					<div class="catalog__name">Натяжные потолки в офис</div>
+					<p class="catalog__text">Самая яркая комната во всем доме – детская, где родители создают особый уют
+						для ребенка. Правильное оформление стен, потолка, подбор мебели и текстиля гарантируют малышу здоровый сон,
+						экологическую обстановку и душевное равновесие. Потолок это то, что видит ребенок, ежедневно просыпаясь, он
+						может быть очень увлекательным и даже познавательным если речь идет о натяжном потолке в детскую.</p>
+					<div class="catalog__price"><span>Стоимость: </span>от 250 руб/м2</div>
+					<a href="#" class="catalog__btn">Заказать</a>
+				</div>
+			</div>
+			<div class="catalog__content">
+				<div class="catalog__img-inner">
+					<img src="images/catalog-img.jpg" alt="" class="catalog__img">
+				</div>
+				<div class="catalog__info">
+					<div class="catalog__name">Натяжные потолки в детскую комнату</div>
+					<p class="catalog__text">Самая яркая комната во всем доме – детская, где родители создают особый уют
+						для ребенка. Правильное оформление стен, потолка, подбор мебели и текстиля гарантируют малышу здоровый сон,
+						экологическую обстановку и душевное равновесие. Потолок это то, что видит ребенок, ежедневно просыпаясь, он
+						может быть очень увлекательным и даже познавательным если речь идет о натяжном потолке в детскую.</p>
+					<div class="catalog__price"><span>Стоимость: </span>от 250 руб/м2</div>
+					<a href="#" class="catalog__btn">Заказать</a>
+				</div>
+			</div>
+			<div class="catalog__content">
+				<div class="catalog__img-inner">
+					<img src="images/catalog-img.jpg" alt="" class="catalog__img">
+				</div>
+				<div class="catalog__info">
+					<div class="catalog__name">Натяжные потолки в гостинную</div>
+					<p class="catalog__text">Самая яркая комната во всем доме – детская, где родители создают особый уют
+						для ребенка. Правильное оформление стен, потолка, подбор мебели и текстиля гарантируют малышу здоровый сон,
+						экологическую обстановку и душевное равновесие. Потолок это то, что видит ребенок, ежедневно просыпаясь, он
+						может быть очень увлекательным и даже познавательным если речь идет о натяжном потолке в детскую.</p>
+					<div class="catalog__price"><span>Стоимость: </span>от 250 руб/м2</div>
+					<a href="#" class="catalog__btn">Заказать</a>
+				</div>
+			</div>
+			<div class="catalog__content">
+				<div class="catalog__img-inner">
+					<img src="images/catalog-img.jpg" alt="" class="catalog__img">
+				</div>
+				<div class="catalog__info">
+					<div class="catalog__name">Натяжные потолки в санузел</div>
+					<p class="catalog__text">Самая яркая комната во всем доме – детская, где родители создают особый уют
+						для ребенка. Правильное оформление стен, потолка, подбор мебели и текстиля гарантируют малышу здоровый сон,
+						экологическую обстановку и душевное равновесие. Потолок это то, что видит ребенок, ежедневно просыпаясь, он
+						может быть очень увлекательным и даже познавательным если речь идет о натяжном потолке в детскую.</p>
+					<div class="catalog__price"><span>Стоимость: </span>от 250 руб/м2</div>
+					<a href="#" class="catalog__btn">Заказать</a>
+				</div>
+			</div>
+			<div class="catalog__content">
+				<div class="catalog__img-inner">
+					<img src="images/catalog-img.jpg" alt="" class="catalog__img">
+				</div>
+				<div class="catalog__info">
+					<div class="catalog__name">Натяжные потолки в загородный дом</div>
+					<p class="catalog__text">Самая яркая комната во всем доме – детская, где родители создают особый уют
+						для ребенка. Правильное оформление стен, потолка, подбор мебели и текстиля гарантируют малышу здоровый сон,
+						экологическую обстановку и душевное равновесие. Потолок это то, что видит ребенок, ежедневно просыпаясь, он
+						может быть очень увлекательным и даже познавательным если речь идет о натяжном потолке в детскую.</p>
+					<div class="catalog__price"><span>Стоимость: </span>от 250 руб/м2</div>
+					<div class="catalog__btn-wrap">
+						<a href="#" class="catalog__btn">Заказать</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="invoice">
+		<div class="container">
+			<h4 class="invoice__title title">Фаткура натяжного потолка</h4>
+			<div class="invoice__items">
+				<div class="invoice__item">
+					<div class="invoice__item-inner" style="background-image: url(images/invoice1.jpg);">
+						<div class="invoice__name">Натяжной потолок с матовым покрытием</div>
+						<div class="inovice__item-box">
+							<div class="invoice__price"><span>Цена:</span>от 199 руб/м2</div>
+							<a href="#" class="invoice__btn">Заказать</a>
+						</div>
+					</div>
+					<div class="invoice__descr">Глянцевый</div>
+				</div>
+				<div class="invoice__item">
+					<div class="invoice__item-inner" style="background-image: url(images/invoice2.jpg);">
+						<div class="invoice__name">Натяжной потолок с матовым покрытием</div>
+						<div class="inovice__item-box">
+							<div class="invoice__price"><span>Цена:</span>от 199 руб/м2</div>
+							<a href="#" class="invoice__btn">Заказать</a>
+						</div>
+					</div>
+					<div class="invoice__descr">Матовый</div>
+				</div>
+				<div class="invoice__item">
+					<div class="invoice__item-inner" style="background-image: url(images/invoice3.jpg);">
+						<div class="invoice__name">Натяжной потолок с статиновым покрытием</div>
+						<div class="inovice__item-box">
+							<div class="invoice__price"><span>Цена:</span>от 199 руб/м2</div>
+							<a href="#" class="invoice__btn">Заказать</a>
+						</div>
+					</div>
+					<div class="invoice__descr">Статиновый</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="contact" style="background-image: url(images/contact-bg.jpg);">
+		<div class="container">
+			<h4 class="contact__title title">Обратная связь</h4>
+			<form class="contact__form">
+				<input type="text" class="contact__name contact__item" name="name" placeholder="Ваше имя:" autocomplete="off">
+				<input type="text" class="contact__phone contact__item" name="phone" placeholder="Ваш телефон:"
+					autocomplete="off" data-inputmask="'mask': '+7(999)999-99-99'">
+				<button class="contact__submit contact__item" type="submit">Свяжитесь со мной</button>
+			</form>
+			<div class="contact__status"></div>
+		</div>
+	</section>
+
+	<section class="feedback" id="feedback">
+		<div class="feedback__container">
+			<h4 class="feedback__title title">Отзывы наших клиентов</h4>
+			<div class="feedback__slider-box">
+				<div class="feedback__slider">
+					<div class="feedback__item">
+						<div class="feedback__item-content">
+							<div class="feedback__name">Виталий Иванов</div>
+							<p class="feedback__text">
+								Равным образом новая модель организационной деятельности позволяет выполнять важные задания
+								по разработке модели развития.
+								Идейные соображения высшего
+								порядка, а также постоянное информационно-пропагандистское обеспечение нашей </p>
+						</div>
+					</div>
+					<div class="feedback__item">
+						<div class="feedback__item-content">
+							<div class="feedback__name">Виталий Иванов</div>
+							<p class="feedback__text">
+								Равным образом новая модель организационной деятельности позволяет выполнять важные задания
+								по разработке модели развития.
+								Идейные соображения высшего
+								порядка, а также постоянное информационно-пропагандистское обеспечение нашей </p>
+						</div>
+					</div>
+					<div class="feedback__item">
+						<div class="feedback__item-content">
+							<div class="feedback__name">Виталий Иванов</div>
+							<p class="feedback__text">
+								Равным образом новая модель организационной деятельности позволяет выполнять важные задания
+								по разработке модели развития.
+								Идейные соображения высшего
+								порядка, а также постоянное информационно-пропагандистское обеспечение нашей </p>
+						</div>
+					</div>
+					<div class="feedback__item">
+						<div class="feedback__item-content">
+							<div class="feedback__name">Виталий Иванов</div>
+							<p class="feedback__text">
+								Равным образом новая модель организационной деятельности позволяет выполнять важные задания
+								по разработке модели развития.
+								Идейные соображения высшего
+								порядка, а также постоянное информационно-пропагандистское обеспечение нашей </p>
+						</div>
+					</div>
+				</div>
+				<div class="feedback__left">
+					<svg width="18" height="35" viewBox="0 0 18 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M17.5 1L1 17.5L17.5 34" stroke="black" />
+					</svg>
+				</div>
+				<div class="feedback__right">
+					<svg width="19" height="35" viewBox="0 0 19 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1 1L17.5 17.5L1 34" stroke="black" />
+					</svg>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<a href="#" class="footer__logo">
+					<img src="images/footer-logo.svg" alt="logo" class="footer__img">
+				</a>
+				<div class="footer__box">
+					<nav class="footer__nav">
+						<div class="footer__nav-title">Меню</div>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#header" class="footer__link nav-link">Главная</a></li>
+							<li class="footer__item"><a href="#advantages" class="footer__link nav-link">Преимущества</a></li>
+							<li class="footer__item"><a href="#catalog" class="footer__link nav-link">Каталог</a></li>
+							<li class="footer__item"><a href="#about" class="footer__link nav-link">О нас</a></li>
+							<li class="footer__item"><a href="#gallery" class="footer__link nav-link">Наши работы</a></li>
+							<li class="footer__item"><a href="#feedback" class="footer__link nav-link">Отзывы</a></li>
+						</ul>
+					</nav>
+					<nav class="footer__nav">
+						<div class="footer__nav-title">Каталог</div>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#" class="footer__link">На кухню</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">В детскую</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">В санузел</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">В офис</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">В гостинную </a></li>
+							<li class="footer__item"><a href="#" class="footer__link">В загородный дом</a></li>
+						</ul>
+					</nav>
+					<div class="footer__contacts">
+						<div class="footer__contacts-title">Контакты</div>
+						<div class="footer__contacts-box">
+							<span class="footer__phone">Тел:<a href="tel:+79218922201">+7 (921) 892 22 01</a></span>
+							<span class="footer__mail">Почта:<a href="mailto:potolok@mail.ru">potolok@mail.ru</a></span>
+							<div class="footer__social">
+								<a href="#" class="footer__social-item youtube" target="_blank">
+									<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M33.5125 7.7875C32.5631 6.09875 31.5328 5.78813 29.435 5.67C27.3394 5.52781 22.0697 5.46875 17.5044 5.46875C12.9303 5.46875 7.65844 5.52781 5.565 5.66781C3.47156 5.78813 2.43906 6.09656 1.48094 7.7875C0.503125 9.47406 0 12.3791 0 17.4934C0 17.4978 0 17.5 0 17.5C0 17.5044 0 17.5066 0 17.5066V17.5109C0 22.6034 0.503125 25.5303 1.48094 27.1994C2.43906 28.8881 3.46937 29.1944 5.56281 29.3366C7.65844 29.4591 12.9303 29.5312 17.5044 29.5312C22.0697 29.5312 27.3394 29.4591 29.4372 29.3387C31.535 29.1966 32.5653 28.8903 33.5147 27.2016C34.5013 25.5325 35 22.6056 35 17.5131C35 17.5131 35 17.5066 35 17.5022C35 17.5022 35 17.4978 35 17.4956C35 12.3791 34.5013 9.47406 33.5125 7.7875ZM13.125 24.0625V10.9375L24.0625 17.5L13.125 24.0625Z"
+											fill="white" />
+									</svg>
+								</a>
+								<a href="#" class="footer__social-item vk" target="_blank">
+									<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0)">
+											<path
+												d="M24.064 15.742C23.5951 15.1499 23.7293 14.8865 24.064 14.3573C24.07 14.3512 27.9403 9.00313 28.339 7.18942L28.3415 7.18821C28.5396 6.52725 28.3415 6.0415 27.3833 6.0415H24.2126C23.4054 6.0415 23.0333 6.45838 22.8339 6.9248C22.8339 6.9248 21.2195 10.789 18.9358 13.2939C18.1987 14.0177 17.858 14.2497 17.4556 14.2497C17.2574 14.2497 16.9493 14.0177 16.9493 13.3568V7.18821C16.9493 6.39555 16.7233 6.0415 16.0551 6.0415H11.0695C10.5633 6.0415 10.2624 6.41125 10.2624 6.75563C10.2624 7.50721 11.4043 7.68 11.5227 9.79459V14.3826C11.5227 15.388 11.3402 15.5728 10.9354 15.5728C9.85758 15.5728 7.24154 11.6929 5.69125 7.25225C5.37829 6.39071 5.07258 6.04271 4.25938 6.04271H1.0875C0.182458 6.04271 0 6.45959 0 6.926C0 7.75009 1.07783 11.8475 5.01217 17.2609C7.63425 20.956 11.3269 22.9582 14.6861 22.9582C16.7052 22.9582 16.9517 22.5135 16.9517 21.7486C16.9517 18.2179 16.7693 17.8844 17.7806 17.8844C18.2495 17.8844 19.0566 18.1164 20.9416 19.8987C23.0961 22.012 23.4501 22.9582 24.656 22.9582H27.8267C28.7305 22.9582 29.1885 22.5135 28.9251 21.6363C28.3221 19.7911 24.2476 15.9958 24.064 15.742Z"
+												fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0">
+												<rect width="29" height="29" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</a>
+								<a href="#" class="footer__social-item inst" target="_blank">
+									<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M18.8247 0H7.17486C3.21865 0 0 3.2188 0 7.17502V18.8248C0 22.7812 3.21865 25.9998 7.17486 25.9998H18.8247C22.7812 25.9998 25.9998 22.781 25.9998 18.8248V7.17502C26 3.2188 22.7812 0 18.8247 0ZM23.6932 18.8248C23.6932 21.5092 21.5092 23.693 18.8248 23.693H7.17486C4.49063 23.6932 2.30683 21.5092 2.30683 18.8248V7.17502C2.30683 4.49079 4.49063 2.30683 7.17486 2.30683H18.8247C21.5091 2.30683 23.693 4.49079 23.693 7.17502V18.8248H23.6932Z"
+											fill="white" />
+										<path
+											d="M12.9998 6.30078C9.30563 6.30078 6.30029 9.30612 6.30029 13.0003C6.30029 16.6943 9.30563 19.6995 12.9998 19.6995C16.694 19.6995 19.6993 16.6943 19.6993 13.0003C19.6993 9.30612 16.694 6.30078 12.9998 6.30078ZM12.9998 17.3925C10.5778 17.3925 8.60713 15.4221 8.60713 13.0001C8.60713 10.578 10.5776 8.60746 12.9998 8.60746C15.422 8.60746 17.3925 10.578 17.3925 13.0001C17.3925 15.4221 15.4218 17.3925 12.9998 17.3925Z"
+											fill="white" />
+										<path
+											d="M19.9805 4.34473C19.536 4.34473 19.0994 4.52466 18.7856 4.83993C18.4701 5.15366 18.2888 5.59042 18.2888 6.0364C18.2888 6.48101 18.4703 6.91761 18.7856 7.23288C19.0993 7.54661 19.536 7.72808 19.9805 7.72808C20.4265 7.72808 20.8617 7.54661 21.177 7.23288C21.4922 6.91761 21.6721 6.48085 21.6721 6.0364C21.6721 5.59042 21.4922 5.15366 21.177 4.83993C20.8632 4.52466 20.4265 4.34473 19.9805 4.34473Z"
+											fill="white" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__wrapper">
+						<a href="#" class="footer__call">Позвоните мне</a>
+						<div class="footer__mode"> 8:00 до 20:00</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+</body>
+
+</html>
